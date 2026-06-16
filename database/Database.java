@@ -25,7 +25,7 @@ public class Database {
 
             // SQL querry for Inserting data into table...
             sql_insert = "INSERT INTO students (1," + "Anil Adhikari" + ",1)";
-            stm.executeQuery(sql_insert);
+            stm.executeUpdate(sql_insert);
             System.out.println("Record inserted sucessfully...");
 
             // SQL querry for Reading Data from the table...
